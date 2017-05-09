@@ -1,0 +1,6 @@
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-helloworld/build/CMakeFiles/rebuild_cache.dir
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-helloworld/build/CMakeFiles/edit_cache.dir
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-helloworld/build/source/CMakeFiles/rebuild_cache.dir
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-helloworld/build/source/CMakeFiles/edit_cache.dir
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-helloworld/build/source/CMakeFiles/tests.dir
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-helloworld/build/source/CMakeFiles/helloworld.dir
