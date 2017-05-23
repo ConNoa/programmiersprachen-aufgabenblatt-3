@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.7.2_1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-helloworld
+CMAKE_SOURCE_DIR = /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-helloworld/build
+CMAKE_BINARY_DIR = /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-helloworld/build/CMakeFiles /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-helloworld/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build/CMakeFiles /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-helloworld/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -124,6 +124,58 @@ tests/fast:
 .PHONY : tests/fast
 
 #=============================================================================
+# Target rules for targets named aufgabe5
+
+# Build rule for target.
+aufgabe5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe5
+.PHONY : aufgabe5
+
+# fast build rule for target.
+aufgabe5/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe5.dir/build.make source/CMakeFiles/aufgabe5.dir/build
+.PHONY : aufgabe5/fast
+
+#=============================================================================
+# Target rules for targets named aufgabe2bis4
+
+# Build rule for target.
+aufgabe2bis4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe2bis4
+.PHONY : aufgabe2bis4
+
+# fast build rule for target.
+aufgabe2bis4/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe2bis4.dir/build.make source/CMakeFiles/aufgabe2bis4.dir/build
+.PHONY : aufgabe2bis4/fast
+
+#=============================================================================
+# Target rules for targets named aufgabe7
+
+# Build rule for target.
+aufgabe7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe7
+.PHONY : aufgabe7
+
+# fast build rule for target.
+aufgabe7/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/build
+.PHONY : aufgabe7/fast
+
+#=============================================================================
+# Target rules for targets named beispiel
+
+# Build rule for target.
+beispiel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 beispiel
+.PHONY : beispiel
+
+# fast build rule for target.
+beispiel/fast:
+	$(MAKE) -f source/CMakeFiles/beispiel.dir/build.make source/CMakeFiles/beispiel.dir/build
+.PHONY : beispiel/fast
+
+#=============================================================================
 # Target rules for targets named helloworld
 
 # Build rule for target.
@@ -145,6 +197,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... tests"
+	@echo "... aufgabe5"
+	@echo "... aufgabe2bis4"
+	@echo "... aufgabe7"
+	@echo "... beispiel"
 	@echo "... helloworld"
 .PHONY : help
 

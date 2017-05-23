@@ -16,17 +16,6 @@ bool isnot_multiple_of_3(int i)
 
 TEST_CASE("filtere alle vielfachen von 3", "[erase]")
 {
-	// ihre Lösung:
-	std::vector<unsigned int> v;
-
-    std::cout << "Größe erster VEc: " << v.size() << '\n';
-
-	REQUIRE(std::all_of(v.begin(), v.end(), is_multiple_of_3));
-}
-
-int main (int argc, char* argv[])
-{
-
 	std::vector<unsigned int> v;
 
 	int ListSize = 100;								//Größe der Random-Zahlen Liste
@@ -38,8 +27,8 @@ int main (int argc, char* argv[])
 		v.push_back(i);					
 	}
 	
-	v.erase( std::remove_if(v.begin(), v.end(), isnot_multiple_of_3), v.end()); //lösche aus v von v.begin bis v.end alle zahlen, bei denen is_multiple_of3 nicht zutrifft.
-
+	v.erase(std::remove_if(v.begin(), v.end(), isnot_multiple_of_3),v.end()); //lösche aus v von v.begin bis v.end alle zahlen, bei denen is_multiple_of3 nicht zutrifft.
+/*
     std::cout << "Größe erster VEc2: " << v.size() << '\n';
 
     for (int i : v) 						
@@ -47,8 +36,13 @@ int main (int argc, char* argv[])
         std::cout << i << '\n';
     } 
 
-	return Catch::Session().run(argc, argv);
+*/
+	REQUIRE(std::all_of(v.begin(), v.end(), is_multiple_of_3));
+}
 
+int main (int argc, char* argv[])
+{
+	return Catch::Session().run(argc, argv);
 }
 
 

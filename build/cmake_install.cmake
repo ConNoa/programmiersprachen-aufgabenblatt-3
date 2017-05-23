@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-helloworld
+# Install script for directory: /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-helloworld/build/source/cmake_install.cmake")
+  include("/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build/source/cmake_install.cmake")
 
 endif()
 
@@ -41,5 +41,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-helloworld/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
