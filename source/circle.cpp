@@ -28,7 +28,7 @@ Circle::Circle(float radius_in):
 
 	bool Circle::operator <(Circle const& c1) const
 	{
-		if(radius()<c1.radius()){return true;}
+		if(radius<c1.radius){return true;}
 		return false;
 
 	}
@@ -36,7 +36,7 @@ Circle::Circle(float radius_in):
 
 	bool Circle::operator >(Circle const& c1) const
 	{
-		if(radius()>c1.radius()){return true;}
+		if(radius>c1.radius){return true;}
 		return false;
 
 	}
@@ -44,7 +44,7 @@ Circle::Circle(float radius_in):
 
 	bool Circle::operator ==(Circle const& c1) const
 	{
-		if(radius()==c1.radius()){return true;}
+		if(radius ==c1.radius){return true;}
 		return false;
 
 	}

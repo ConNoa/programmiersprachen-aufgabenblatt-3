@@ -27,10 +27,9 @@ TEST_CASE("sortiere Circle", "[sort]")
 		KreisContainer.push_back(Circle(i));
 	}
 	
-	//std::sort (std::begin(KreisContainer) , std::end(KreisContainer));
+	std::sort (KreisContainer.begin() , KreisContainer.end());
 	
-	//REQUIRE(std::is_sorted(std::begin(KreisContainer), std::end(KreisContainer)));
-	//REQUIRE(1 == 1);
+	REQUIRE(std::is_sorted(std::begin(KreisContainer), std::end(KreisContainer)));
 }
 
 int main (int argc, char* argv[])

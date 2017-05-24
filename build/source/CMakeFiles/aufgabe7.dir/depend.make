@@ -5,3 +5,6 @@ source/CMakeFiles/aufgabe7.dir/aufgabe7.cpp.o: ../external/catch-1.4.0/catch.hpp
 source/CMakeFiles/aufgabe7.dir/aufgabe7.cpp.o: ../source/aufgabe7.cpp
 source/CMakeFiles/aufgabe7.dir/aufgabe7.cpp.o: ../source/circle.hpp
 
+source/CMakeFiles/aufgabe7.dir/circle.cpp.o: ../source/circle.cpp
+source/CMakeFiles/aufgabe7.dir/circle.cpp.o: ../source/circle.hpp
+

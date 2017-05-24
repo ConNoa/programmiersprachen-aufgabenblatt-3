@@ -6,7 +6,7 @@ add_executable(aufgabe5 aufgabe5.cpp)
 #target_link_libraries(helloworld my_fancy_library)
 
 add_executable(aufgabe7
-  aufgabe7.cpp)
+  aufgabe7.cpp circle.cpp)
 
 
 # Kommentieren Sie die folgenden Zeilen für die Aufgabe `mileToKilometer` aus
