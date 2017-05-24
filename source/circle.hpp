@@ -1,7 +1,6 @@
 #ifndef CIRCLE_HPP
 #define CIRCLE_HPP
-#include <vector>
-
+#include <cmath>
 
 class Circle
 {	
@@ -16,12 +15,13 @@ class Circle
 	float			circumreference() 		const;
 
 	//Setter
-	void 			set_radius(float radius_in);
+//	void 			set_radius(float radius_in);
 
 
-	bool operator<(Circle const& c1);
-	bool operator>(Circle const& c1);
-	bool operator==(Circle const& c1);
+	bool operator <	(Circle const& c1) const;
+	bool operator >	(Circle const& c1) const;
+	bool operator ==	(Circle const& c1)const;
+	
 
 	/*
 
@@ -42,4 +42,6 @@ Circle operator==(Circle const& c1, Circle const& c2);
 	
 };
 
+
+	
 #endif

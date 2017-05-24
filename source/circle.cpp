@@ -1,13 +1,11 @@
 #include "circle.hpp"	
-#include "mat2.hpp"
-#include <cmath>
 
 
 Circle::Circle():
-	radius{1.0}{}
+	radius{1.0f}{}
 
 
-Circle::Circle(vector const& radius_in):
+Circle::Circle(float radius_in):
 	radius{radius_in}
 	{}
 
@@ -28,22 +26,25 @@ Circle::Circle(vector const& radius_in):
 
 
 
-	bool operator<(Circle const& c1)
+	bool Circle::operator <(Circle const& c1) const
 	{
-		return radius()<c1.radius();
+		if(radius()<c1.radius()){return true;}
+		return false;
 
 	}
 	
 
-	bool operator>(Circle const& c1)
+	bool Circle::operator >(Circle const& c1) const
 	{
-		return radius()>c1.radius();
+		if(radius()>c1.radius()){return true;}
+		return false;
 
 	}
 
 
-	bool operator==(Circle const& c1)
+	bool Circle::operator ==(Circle const& c1) const
 	{
-		return radius()==c1.radius();
+		if(radius()==c1.radius()){return true;}
+		return false;
 
 	}

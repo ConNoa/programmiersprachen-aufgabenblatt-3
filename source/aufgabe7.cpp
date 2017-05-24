@@ -1,9 +1,12 @@
 #define CATCH_CONFIG_RUNNER
-#include <catch.hpp>
+#include "../external/catch-1.4.0/catch.hpp"
 #include <vector>
 #include <cmath>
 #include <algorithm>
 #include "circle.hpp"
+#include <cstdlib>	
+
+	// std :: rand () 		gibt standard random zahl zurück
 
 
 
@@ -15,17 +18,19 @@ TEST_CASE("sortiere Circle", "[sort]")
 	std::vector<Circle> KreisContainer;
 
 	int ListSize = 10;								//Größe der Random-Zahlen Liste
-		
+	
 	for (int x=0; x<ListSize; ++x)					//Schleife die über die Listengröße iteriert				
 	{
-		unsigned int i = std::rand();				// i wird ein random-Wert zugewiesen
-		i = i%101;									//Modulo 101 für Zufallszahlen von 0 bis100
-		KreisContainer.push_back(i);					
+		float i = std::rand();				// i wird ein random-Wert zugewiesen
+											//Modulo 101 für Zufallszahlen von 0 bis100
+		
+		KreisContainer.push_back(Circle(i));
 	}
 	
-	std::sort (KreisContainer.begin() , KreisContainer.end());
+	//std::sort (std::begin(KreisContainer) , std::end(KreisContainer));
 	
-	REQUIRE(std::is_sorted(KreisContainer.begin(), KreisContainer.end()));
+	//REQUIRE(std::is_sorted(std::begin(KreisContainer), std::end(KreisContainer)));
+	//REQUIRE(1 == 1);
 }
 
 int main (int argc, char* argv[])
