@@ -50,6 +50,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "source/CMakeFiles/aufgabe5.dir/DependInfo.cmake"
   "source/CMakeFiles/aufgabe2bis4.dir/DependInfo.cmake"
   "source/CMakeFiles/aufgabe7.dir/DependInfo.cmake"
+  "source/CMakeFiles/aufgabe8.dir/DependInfo.cmake"
   "source/CMakeFiles/beispiel.dir/DependInfo.cmake"
   "source/CMakeFiles/helloworld.dir/DependInfo.cmake"
   )

@@ -156,6 +156,21 @@ aufgabe7/fast:
 .PHONY : aufgabe7/fast
 
 # Convenience name for target.
+source/CMakeFiles/aufgabe8.dir/rule:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe8.dir/rule
+.PHONY : source/CMakeFiles/aufgabe8.dir/rule
+
+# Convenience name for target.
+aufgabe8: source/CMakeFiles/aufgabe8.dir/rule
+
+.PHONY : aufgabe8
+
+# fast build rule for target.
+aufgabe8/fast:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/build
+.PHONY : aufgabe8/fast
+
+# Convenience name for target.
 source/CMakeFiles/beispiel.dir/rule:
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/beispiel.dir/rule
 .PHONY : source/CMakeFiles/beispiel.dir/rule
@@ -266,6 +281,33 @@ aufgabe7.cpp.s:
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/aufgabe7.cpp.s
 .PHONY : aufgabe7.cpp.s
 
+aufgabe8.o: aufgabe8.cpp.o
+
+.PHONY : aufgabe8.o
+
+# target to build an object file
+aufgabe8.cpp.o:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/aufgabe8.cpp.o
+.PHONY : aufgabe8.cpp.o
+
+aufgabe8.i: aufgabe8.cpp.i
+
+.PHONY : aufgabe8.i
+
+# target to preprocess a source file
+aufgabe8.cpp.i:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/aufgabe8.cpp.i
+.PHONY : aufgabe8.cpp.i
+
+aufgabe8.s: aufgabe8.cpp.s
+
+.PHONY : aufgabe8.s
+
+# target to generate assembly for a file
+aufgabe8.cpp.s:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/aufgabe8.cpp.s
+.PHONY : aufgabe8.cpp.s
+
 beispiel_programm.o: beispiel_programm.cpp.o
 
 .PHONY : beispiel_programm.o
@@ -300,6 +342,7 @@ circle.o: circle.cpp.o
 # target to build an object file
 circle.cpp.o:
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/circle.cpp.o
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/circle.cpp.o
 .PHONY : circle.cpp.o
 
 circle.i: circle.cpp.i
@@ -309,6 +352,7 @@ circle.i: circle.cpp.i
 # target to preprocess a source file
 circle.cpp.i:
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/circle.cpp.i
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/circle.cpp.i
 .PHONY : circle.cpp.i
 
 circle.s: circle.cpp.s
@@ -318,6 +362,7 @@ circle.s: circle.cpp.s
 # target to generate assembly for a file
 circle.cpp.s:
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/circle.cpp.s
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/circle.cpp.s
 .PHONY : circle.cpp.s
 
 helloworld.o: helloworld.cpp.o
@@ -358,6 +403,7 @@ help:
 	@echo "... aufgabe5"
 	@echo "... aufgabe2bis4"
 	@echo "... aufgabe7"
+	@echo "... aufgabe8"
 	@echo "... beispiel"
 	@echo "... helloworld"
 	@echo "... aufgabe2bis4.o"
@@ -369,6 +415,9 @@ help:
 	@echo "... aufgabe7.o"
 	@echo "... aufgabe7.i"
 	@echo "... aufgabe7.s"
+	@echo "... aufgabe8.o"
+	@echo "... aufgabe8.i"
+	@echo "... aufgabe8.s"
 	@echo "... beispiel_programm.o"
 	@echo "... beispiel_programm.i"
 	@echo "... beispiel_programm.s"

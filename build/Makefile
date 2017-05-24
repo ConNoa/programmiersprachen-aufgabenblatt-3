@@ -150,6 +150,19 @@ aufgabe7/fast:
 .PHONY : aufgabe7/fast
 
 #=============================================================================
+# Target rules for targets named aufgabe8
+
+# Build rule for target.
+aufgabe8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe8
+.PHONY : aufgabe8
+
+# fast build rule for target.
+aufgabe8/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/build
+.PHONY : aufgabe8/fast
+
+#=============================================================================
 # Target rules for targets named beispiel
 
 # Build rule for target.
@@ -186,6 +199,7 @@ help:
 	@echo "... aufgabe5"
 	@echo "... aufgabe2bis4"
 	@echo "... aufgabe7"
+	@echo "... aufgabe8"
 	@echo "... beispiel"
 	@echo "... helloworld"
 .PHONY : help
