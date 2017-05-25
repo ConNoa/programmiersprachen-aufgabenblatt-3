@@ -126,6 +126,21 @@ aufgabe5/fast:
 .PHONY : aufgabe5/fast
 
 # Convenience name for target.
+source/CMakeFiles/aufgabe7.dir/rule:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe7.dir/rule
+.PHONY : source/CMakeFiles/aufgabe7.dir/rule
+
+# Convenience name for target.
+aufgabe7: source/CMakeFiles/aufgabe7.dir/rule
+
+.PHONY : aufgabe7
+
+# fast build rule for target.
+aufgabe7/fast:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/build
+.PHONY : aufgabe7/fast
+
+# Convenience name for target.
 source/CMakeFiles/aufgabe2bis4.dir/rule:
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe2bis4.dir/rule
 .PHONY : source/CMakeFiles/aufgabe2bis4.dir/rule
@@ -141,19 +156,19 @@ aufgabe2bis4/fast:
 .PHONY : aufgabe2bis4/fast
 
 # Convenience name for target.
-source/CMakeFiles/aufgabe7.dir/rule:
-	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe7.dir/rule
-.PHONY : source/CMakeFiles/aufgabe7.dir/rule
+source/CMakeFiles/aufgabe9.dir/rule:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe9.dir/rule
+.PHONY : source/CMakeFiles/aufgabe9.dir/rule
 
 # Convenience name for target.
-aufgabe7: source/CMakeFiles/aufgabe7.dir/rule
+aufgabe9: source/CMakeFiles/aufgabe9.dir/rule
 
-.PHONY : aufgabe7
+.PHONY : aufgabe9
 
 # fast build rule for target.
-aufgabe7/fast:
-	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/build
-.PHONY : aufgabe7/fast
+aufgabe9/fast:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe9.dir/build.make source/CMakeFiles/aufgabe9.dir/build
+.PHONY : aufgabe9/fast
 
 # Convenience name for target.
 source/CMakeFiles/aufgabe8.dir/rule:
@@ -308,6 +323,33 @@ aufgabe8.cpp.s:
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/aufgabe8.cpp.s
 .PHONY : aufgabe8.cpp.s
 
+aufgabe9.o: aufgabe9.cpp.o
+
+.PHONY : aufgabe9.o
+
+# target to build an object file
+aufgabe9.cpp.o:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe9.dir/build.make source/CMakeFiles/aufgabe9.dir/aufgabe9.cpp.o
+.PHONY : aufgabe9.cpp.o
+
+aufgabe9.i: aufgabe9.cpp.i
+
+.PHONY : aufgabe9.i
+
+# target to preprocess a source file
+aufgabe9.cpp.i:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe9.dir/build.make source/CMakeFiles/aufgabe9.dir/aufgabe9.cpp.i
+.PHONY : aufgabe9.cpp.i
+
+aufgabe9.s: aufgabe9.cpp.s
+
+.PHONY : aufgabe9.s
+
+# target to generate assembly for a file
+aufgabe9.cpp.s:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe9.dir/build.make source/CMakeFiles/aufgabe9.dir/aufgabe9.cpp.s
+.PHONY : aufgabe9.cpp.s
+
 beispiel_programm.o: beispiel_programm.cpp.o
 
 .PHONY : beispiel_programm.o
@@ -401,8 +443,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... aufgabe5"
-	@echo "... aufgabe2bis4"
 	@echo "... aufgabe7"
+	@echo "... aufgabe2bis4"
+	@echo "... aufgabe9"
 	@echo "... aufgabe8"
 	@echo "... beispiel"
 	@echo "... helloworld"
@@ -418,6 +461,9 @@ help:
 	@echo "... aufgabe8.o"
 	@echo "... aufgabe8.i"
 	@echo "... aufgabe8.s"
+	@echo "... aufgabe9.o"
+	@echo "... aufgabe9.i"
+	@echo "... aufgabe9.s"
 	@echo "... beispiel_programm.o"
 	@echo "... beispiel_programm.i"
 	@echo "... beispiel_programm.s"
