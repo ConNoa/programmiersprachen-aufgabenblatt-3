@@ -2,6 +2,8 @@
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build/CMakeFiles/edit_cache.dir
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build/source/CMakeFiles/rebuild_cache.dir
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build/source/CMakeFiles/edit_cache.dir
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build/source/CMakeFiles/aufgabe12.dir
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build/source/CMakeFiles/aufgabe10.dir
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build/source/CMakeFiles/aufgabe5.dir
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build/source/CMakeFiles/aufgabe7.dir
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build/source/CMakeFiles/aufgabe2bis4.dir

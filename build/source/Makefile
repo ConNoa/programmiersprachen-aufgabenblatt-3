@@ -111,6 +111,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+source/CMakeFiles/aufgabe12.dir/rule:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe12.dir/rule
+.PHONY : source/CMakeFiles/aufgabe12.dir/rule
+
+# Convenience name for target.
+aufgabe12: source/CMakeFiles/aufgabe12.dir/rule
+
+.PHONY : aufgabe12
+
+# fast build rule for target.
+aufgabe12/fast:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/build
+.PHONY : aufgabe12/fast
+
+# Convenience name for target.
+source/CMakeFiles/aufgabe10.dir/rule:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe10.dir/rule
+.PHONY : source/CMakeFiles/aufgabe10.dir/rule
+
+# Convenience name for target.
+aufgabe10: source/CMakeFiles/aufgabe10.dir/rule
+
+.PHONY : aufgabe10
+
+# fast build rule for target.
+aufgabe10/fast:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/build
+.PHONY : aufgabe10/fast
+
+# Convenience name for target.
 source/CMakeFiles/aufgabe5.dir/rule:
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe5.dir/rule
 .PHONY : source/CMakeFiles/aufgabe5.dir/rule
@@ -214,6 +244,60 @@ helloworld: source/CMakeFiles/helloworld.dir/rule
 helloworld/fast:
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/helloworld.dir/build.make source/CMakeFiles/helloworld.dir/build
 .PHONY : helloworld/fast
+
+aufgabe10.o: aufgabe10.cpp.o
+
+.PHONY : aufgabe10.o
+
+# target to build an object file
+aufgabe10.cpp.o:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/aufgabe10.cpp.o
+.PHONY : aufgabe10.cpp.o
+
+aufgabe10.i: aufgabe10.cpp.i
+
+.PHONY : aufgabe10.i
+
+# target to preprocess a source file
+aufgabe10.cpp.i:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/aufgabe10.cpp.i
+.PHONY : aufgabe10.cpp.i
+
+aufgabe10.s: aufgabe10.cpp.s
+
+.PHONY : aufgabe10.s
+
+# target to generate assembly for a file
+aufgabe10.cpp.s:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/aufgabe10.cpp.s
+.PHONY : aufgabe10.cpp.s
+
+aufgabe12.o: aufgabe12.cpp.o
+
+.PHONY : aufgabe12.o
+
+# target to build an object file
+aufgabe12.cpp.o:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/aufgabe12.cpp.o
+.PHONY : aufgabe12.cpp.o
+
+aufgabe12.i: aufgabe12.cpp.i
+
+.PHONY : aufgabe12.i
+
+# target to preprocess a source file
+aufgabe12.cpp.i:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/aufgabe12.cpp.i
+.PHONY : aufgabe12.cpp.i
+
+aufgabe12.s: aufgabe12.cpp.s
+
+.PHONY : aufgabe12.s
+
+# target to generate assembly for a file
+aufgabe12.cpp.s:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/aufgabe12.cpp.s
+.PHONY : aufgabe12.cpp.s
 
 aufgabe2bis4.o: aufgabe2bis4.cpp.o
 
@@ -383,6 +467,7 @@ circle.o: circle.cpp.o
 
 # target to build an object file
 circle.cpp.o:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/circle.cpp.o
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/circle.cpp.o
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/circle.cpp.o
 .PHONY : circle.cpp.o
@@ -393,6 +478,7 @@ circle.i: circle.cpp.i
 
 # target to preprocess a source file
 circle.cpp.i:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/circle.cpp.i
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/circle.cpp.i
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/circle.cpp.i
 .PHONY : circle.cpp.i
@@ -403,6 +489,7 @@ circle.s: circle.cpp.s
 
 # target to generate assembly for a file
 circle.cpp.s:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/circle.cpp.s
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/circle.cpp.s
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/circle.cpp.s
 .PHONY : circle.cpp.s
@@ -442,6 +529,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... aufgabe12"
+	@echo "... aufgabe10"
 	@echo "... aufgabe5"
 	@echo "... aufgabe7"
 	@echo "... aufgabe2bis4"
@@ -449,6 +538,12 @@ help:
 	@echo "... aufgabe8"
 	@echo "... beispiel"
 	@echo "... helloworld"
+	@echo "... aufgabe10.o"
+	@echo "... aufgabe10.i"
+	@echo "... aufgabe10.s"
+	@echo "... aufgabe12.o"
+	@echo "... aufgabe12.i"
+	@echo "... aufgabe12.s"
 	@echo "... aufgabe2bis4.o"
 	@echo "... aufgabe2bis4.i"
 	@echo "... aufgabe2bis4.s"
